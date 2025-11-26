@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TNM | Personal</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link
+    href="/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+
+  <!-- Header -->
+<!-- Top Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-warning p-0 fixed-top" style="height: 70px; line-height: 48px;">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="topNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link text-success fw-bold bg-white px-3" style="height:48px; display:flex; align-items:center;" href="index.html">Personal</a></li>
+        <li class="nav-item"><a class="nav-link text-dark py-2" href="/enterprise/index.html">Enterprise</a></li>
+        <li class="nav-item"><a class="nav-link text-dark py-2" href="/our shops/index.html">Our Shops</a></li>
+        <li class="nav-item"><a class="nav-link text-dark py-2" href="/about/index.html">About</a></li>
+      </ul>
+    </div>
+
+    <div class="d-flex ms-auto align-items-center">
+
+      <a href="https://web.facebook.com" class="ms-3">
+
+        <img src="icons/facebook.svg" alt="facebook" width="30" height="30">
+      </a>
+
+      <a href="https://x.com/" class="ms-3">
+        <img src="icons/twitter.svg" alt="twitter" width="30" height="30">
+      </a>
+
+      <a href="https://youtube.com/" class="ms-3">
+        <img src="icons/youtube.svg" alt="youtube" width="30" height="30">
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Bottom Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-top border-bottom py-0 fixed-top" style="top: 48px; height: 48px;">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="/index.html">
+      <img src="logo/tnm-logo-1.0dd9a10.svg" alt="TNM Logo" height="40">
+    </a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottomNav"
+      aria-controls="bottomNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible section -->
+    <div class="collapse navbar-collapse" id="bottomNav">
+
+      <ul class="navbar-nav d-flex align-items-center gap-3">
+
+        <!-- Products Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="productsMenu" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="productsMenu">
+            <li><a class="dropdown-item" href="#">Prepaid Tariff Plans</a></li>
+            <li><a class="dropdown-item" href="#">Value Added Services</a></li>
+            <li><a class="dropdown-item" href="#">Voice Services</a></li>
+            <li><a class="dropdown-item" href="#">Bundles</a></li>
+            <li><a class="dropdown-item" href="#">Pamtsetse</a></li>
+            <li><a class="dropdown-item" href="#">Bonuses</a></li>
+            <li><a class="dropdown-item" href="#">International Dialing & Roaming</a></li>
+          </ul>
+        </li>
+
+        <!-- Support Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="supportMenu" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Support
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="supportMenu">
+            <li><a class="dropdown-item" href="#">FAQs</a></li>
+            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+            <li><a class="dropdown-item" href="#">Data Management</a></li>
+          </ul>
+        </li>
+
+        <!-- Downloads Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="downloadsMenu" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Downloads
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="downloadsMenu">
+            <li><a class="dropdown-item" href="#">Mtolo Leaflets</a></li>
+            <li><a class="dropdown-item" href="#">Product Brochures</a></li>
+            <li><a class="dropdown-item" href="#">Forms</a></li>
+            <li><a class="dropdown-item" href="#">Smart App</a></li>
+          </ul>
+        </li>
+
+        <!-- Services Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesMenu" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="servicesMenu">
+            <li><a class="dropdown-item" href="#">Web Topup</a></li>
+            <li><a class="dropdown-item" href="#">Yanga</a></li>
+          </ul>
+        </li>
+
+        <!-- My Portal Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="myportalMenu" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            My Portal
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="myportalMenu">
+            <li><a class="dropdown-item" href="#">Recharge</a></li>
+            <li><a class="dropdown-item" href="#">Hot Offers</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- Picture Slider -->
+  <div id="mainSlider" class="carousel slide mb-4 mt-4" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="Image/image1.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="Image/image2.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="Image/image3.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="Image/image1.jpg" class="d-block w-100" alt="Slide 4">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Hot Offers -->
+  <section class="container mb-5 mt-4">
+    <div class="mb-5">
+      <h2 class="fw-bold">Hot Offers</h2>
+    </div>
+
+    <div id="hotOffersMulti" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4"><img src="Image/offer1.jpg" class="d-block w-100"></div>
+            <div class="col-md-4"><img src="Image/offer2.jpg" class="d-block w-100"></div>
+            <div class="col-md-4"><img src="Image/offer3.jpg" class="d-block w-100"></div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4"><img src="Image/offer2.jpg" class="d-block w-100"></div>
+            <div class="col-md-4"><img src="Image/offer3.jpg" class="d-block w-100"></div>
+            <div class="col-md-4"><img src="Image/offer4.jpg" class="d-block w-100"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#hotOffersMulti" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hotOffersMulti" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- News Section -->
+    <div class="container my-5">
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="position-relative rounded overflow-hidden shadow-sm">
+            <img src="Image/news1.jpg" class="img-fluid w-100">
+            <div class="position-absolute bottom-0 start-0 w-100 p-4"
+              style="background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0));">
+              <h4 class="text-white fw-bold mb-1">Our Latest News</h4>
+              <p class="text-white mb-0">TNM proudly sponsors K20 million towards IMM Conference</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="position-relative rounded overflow-hidden shadow-sm">
+            <img src="Image/news2.jpg" class="img-fluid w-100">
+            <div class="position-absolute bottom-0 start-0 w-100 p-4"
+              style="background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0));">
+              <h4 class="text-white fw-bold mb-1">Our Latest News</h4>
+              <p class="text-white mb-0">TNM participated in Plan International's Girls Takeover</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+<!-- Updated Full-Width Footer -->
+<footer style="background-color: forestgreen;" class="text-white mt-auto py-5 w-100">
+  <div class="container-fluid px-4">
+    <div class="row">
+      <div class="col-md-1 mb-1">
+        <h6>Personal</h6>
+        <ul class="list-unstyled">
+          <li>Products</li>
+          <li>Support</li>
+          <li>Downloads</li>
+          <li>Services</li>
+          <li>My Portal</li>
+        </ul>
+      </div>
+
+      <div class="col-md-1 mb-1">
+        <h6>Enterprise</h6>
+        <ul class="list-unstyled">
+          <li>Office Connectivity</li>
+          <li>Office Telephony</li>
+          <li>SME Communications</li>
+          <li>Home Broadband</li>
+          <li>Hosting</li>
+          <li>Cloud</li>
+          <li>Contracts</li>
+          <li>Mobile Advertising</li>
+          <li>5G</li>
+        </ul>
+      </div>
+
+      <div class="col-md-1 mb-1">
+        <h6>Mpamba</h6>
+        <ul class="list-unstyled"></ul>
+      </div>
+
+      <div class="col-md-1 mb-1">
+        <h6>Our Shops</h6>
+        <ul class="list-unstyled"></ul>
+      </div>
+
+      <div class="col-md-1 mb-1">
+        <h6>About TNM</h6>
+        <ul class="list-unstyled">
+          <li>Core Values</li>
+          <li>Company Profile</li>
+          <li>Directors</li>
+          <li>Management</li>
+          <li>Sponsorships</li>
+          <li>Coverage</li>
+        </ul>
+      </div>
+
+      <div class="col-md-1 mb-1">
+        <h6>Investors</h6>
+        <ul class="list-unstyled"></ul>
+      </div>
+
+      <div class="col-md-1 mb-1">
+        <h6>News</h6>
+        <ul class="list-unstyled">
+          <li>Press Releases</li>
+          <li>Promotions</li>
+          <li>Procurements</li>
+        </ul>
+      </div>
+
+      <div class="col-md-1 mb-1">
+        <h6>Vacancies</h6>
+        <ul class="list-unstyled"></ul>
+      </div>
+
+      <div class="col-md-3">
+        <h6>Brand & Info</h6>
+        <p><img src="logo/tnm-logo-2.3c348down.svg" alt="TNM Logo" height="40"></p>
+        <p>TNM is a strong brand in Malawi. This strength comes from being the first mobile operator and more especially that it is a Malawian company, with innovative products and services.</p>
+        <p class="mt-3">© 2025 Telekom Networks Malawi PLC</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
